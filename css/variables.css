@@ -1,0 +1,32 @@
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Anton', sans-serif;
+
+  --bg: #f3f4f6;
+  --bg-card: #ffffff;
+  --bg-accent: #eef2ff;
+
+  --text-main: #111827;
+  --text-muted: #6b7280;
+
+  --border-soft: #e5e7eb;
+
+  --radius-lg: 18px;
+  --radius-md: 12px;
+
+  --gap: 16px;
+}
+
+/* modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #020617;
+    --bg-card: #111827;
+    --bg-accent: #1e293b;
+
+    --text-main: #e5e7eb;
+    --text-muted: #94a3b8;
+
+    --border-soft: #1f2937;
+  }
+}

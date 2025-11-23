@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento Layout - Practica 3</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Anton&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="page__header">
+      <h1 class="page__title">Bento Layout</h1>
+      <p class="page__subtitle">Práctica 3 – Grid anidado, variables y media queries</p>
+    </header>
+
+    <main class="bento">
+
+      <!-- HERO PRINCIPAL -->
+      <section class="bento__area bento__area--hero">
+        <div class="hero">
+
+          <div class="hero__text">
+            <h2 class="hero__title">Semana de Entrenamiento</h2>
+            <p class="hero__desc">Planificación básica de trabajo semanal.</p>
+
+            <ul class="hero__list">
+              <li>Día 1 – Sentadilla</li>
+              <li>Día 2 – Press banca</li>
+              <li>Día 3 – Peso muerto</li>
+            </ul>
+          </div>
+
+          <div class="hero__image">
+            <!-- Sustituye hero.jpg por tu imagen -->
+            <img src="img/hero.jpg" alt="Imagen principal" class="hero__img">
+          </div>
+
+        </div>
+      </section>
+
+      <!-- OBJETIVOS -->
+      <section class="bento__area bento__area--goals">
+        <h3 class="bento__title">Objetivos</h3>
+
+        <div class="bento__grid bento__grid--goals">
+
+          <article class="goal goal--big">
+            <!-- Sustituye goal1.jpg -->
+            <img src="img/goal1.jpg" class="goal__img" alt="Objetivo 1">
+            <h4>Fuerza</h4>
+            <p>Aumentar las cargas progresivamente.</p>
+          </article>
+
+          <article class="goal">
+            <img src="img/goal2.jpg" class="goal__img" alt="Objetivo 2">
+            <h4>Técnica</h4>
+            <p>Mejorar la ejecución de cada movimiento.</p>
+          </article>
+
+          <article class="goal">
+            <img src="img/goal3.jpg" class="goal__img" alt="Objetivo 3">
+            <h4>Recuperación</h4>
+            <p>Control del descanso y el estrés.</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ESTADISTICAS -->
+      <section class="bento__area bento__area--stats">
+        <h3 class="bento__title">Estadísticas</h3>
+
+        <div class="bento__grid bento__grid--stats">
+
+          <article class="stat stat--wide">
+            <img src="img/rm.jpg" class="stat__img" alt="RM">
+            <h4>RM estimada</h4>
+            <p>Sentadilla 160kg, banca 110kg, peso muerto 190kg.</p>
+          </article>
+
+          <article class="stat">
+            <img src="img/sessions.jpg" class="stat__img" alt="Sesiones">
+            <h4>Sesiones semanales</h4>
+            <p>4 entrenamientos.</p>
+          </article>
+
+          <article class="stat">
+            <img src="img/rpe.jpg" class="stat__img" alt="RPE">
+            <h4>RPE medio</h4>
+            <p>Entre 7 y 8.</p>
+          </article>
+
+          <article class="stat stat--tall">
+            <img src="img/volume.jpg" class="stat__img" alt="Volumen">
+            <h4>Volumen</h4>
+            <p>Trabajo efectivo por bloque.</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- GALERIA -->
+      <section class="bento__area bento__area--gallery">
+        <h3 class="bento__title">Galería</h3>
+
+        <div class="bento__grid bento__grid--gallery">
+
+          <div class="gallery__item gallery__item--wide">
+            <img src="img/gallery1.jpg" class="gallery__img" alt="Galería 1">
+          </div>
+
+          <div class="gallery__item">
+            <img src="img/gallery2.jpg" class="gallery__img" alt="Galería 2">
+          </div>
+
+          <div class="gallery__item gallery__item--tall">
+            <img src="img/gallery3.jpg" class="gallery__img" alt="Galería 3">
+          </div>
+
+          <div class="gallery__item">
+            <img src="img/gallery4.jpg" class="gallery__img" alt="Galería 4">
+          </div>
+
+        </div>
+      </section>
+
+      <!-- NOTAS -->
+      <section class="bento__area bento__area--notes">
+        <h3 class="bento__title">Notas</h3>
+        <ul class="notes">
+          <li>Controla el descanso.</li>
+          <li>No sobreentrenes.</li>
+          <li>Anota sensaciones.</li>
+        </ul>
+      </section>
+
+    </main>
+
+    <footer class="page__footer">
+      <p>Práctica 3 – Diseño con Grid y media queries</p>
+    </footer>
+
+  </div>
+</body>
+</html>
